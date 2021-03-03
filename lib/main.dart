@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
         AppLocalizations.delegate,
       ],
+      supportedLocales: AppLocalizations.supportedLocales,
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
